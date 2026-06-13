@@ -34,10 +34,10 @@ public class Paciente extends Pessoa implements Faturavel {
             return 100.0;
         }
         return 250.0;
+    }
 
     //     double base = 150.00; <-- outra forma de fazer.
     //     return convenio.equalsIgnoreCase("Particular") ? base : base * 0.4;
-    }
 
     @Override
     public void emitirNota() {
